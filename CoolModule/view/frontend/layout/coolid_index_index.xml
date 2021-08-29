@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+
+<page xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" layout="1column"
+      xsi:noNamespaceSchemaLocation="urn:magento:framework:View/Layout/etc/page_configuration.xsd">
+    <head>
+        <css src="Amasty_CoolModule::css/beautiful.css" rel="stylesheet" type="text/css" />
+    </head>
+    <body>
+
+
+        <referenceContainer name="content">
+            <block name="coolModule.mainblock" class="Amasty\CoolModule\Block\Index"
+                   template="Amasty_CoolModule::index.phtml" >
+
+                <block name="coolModule.blockFofm"  template="Amasty_CoolModule::block-form.phtml" />
+                <block name="coolModule.blockAdd" template="Amasty_CoolModule::block-add.phtml" />
+                <block name="coolModule.btnSubmit" template="Amasty_CoolModule::btn-submit.phtml" />
+
+
+            </block>
+        </referenceContainer>
+
+<!--        <move element="coolModule.blockAdd" destination="page.bottom" after="coolModule.blockFofm" />-->
+    </body>
+</page>
+
