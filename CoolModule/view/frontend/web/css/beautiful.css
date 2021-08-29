@@ -1,0 +1,43 @@
+.copyright , .footer, .header, .nav-sections {
+    display: none;
+}
+
+.page-main{
+    border: 10px solid red;
+    border-radius: 20px;
+    padding: 10px;
+}
+
+.some-class{
+    border: 5px solid darkkhaki;
+    border-radius: 20px;
+    padding: 10px;
+}
+
+.block-add{
+    border: 3px solid sandybrown;
+    border-radius: 20px;
+    padding: 10px;
+    margin-top: 10px;
+}
+
+.block-form {
+    border: 5px solid darkkhaki;
+    border-radius: 20px;
+    padding: 10px;
+    margin-top: 10px;
+}
+
+.form-add{
+    border: 1px solid grey;
+    border-radius: 20px;
+    padding: 10px;
+}
+
+.btn-submit{
+    margin: 10px;
+}
+
+
+
+
