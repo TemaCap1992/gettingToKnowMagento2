@@ -16,7 +16,6 @@
                 <block name="coolModule.blockAdd" template="Amasty_CoolModule::block-add.phtml" />
                 <block name="coolModule.btnSubmit" template="Amasty_CoolModule::btn-submit.phtml" />
 
-
             </block>
         </referenceContainer>
 
