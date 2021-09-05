@@ -7,9 +7,14 @@
     <h1>
         <?=  $block->sayWazzupTo('Artem'); ?>
     </h1>
+    <p> <?= $block->sayHelloFromConfig(); ?></p>
+
+
 </div>
 
 <div class="block-form">
+    <h2>Add item to cart form</h2>
+    <input type="number" name="qty" value="<?= $block-> showInputQty(); ?>" >
     <?= $block->getChildHtml();?>
 </div>
 
